@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
       <NavContainer>
         <NavLink onClick={handleClick} to="/" className="link">
-          <h2>Logo</h2>
+          Logo
         </NavLink>
 
         {width < 992 ? (
@@ -111,7 +111,7 @@ const NavContainer = styled.nav`
 `;
 
 const MobileMenu = styled.div`
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   position: absolute;
   top: 100px;
   left: -1000px;
@@ -119,12 +119,12 @@ const MobileMenu = styled.div`
   height: 100%;
   transition: all 0.8s ease;
   border-radius: 0 0 80% 0;
+  height: 85vh;
 
   &.active {
     top: 100px;
     left: 0;
     width: 100%;
-    height: 100vh;
   }
 
   .linksContainer {
@@ -133,6 +133,7 @@ const MobileMenu = styled.div`
     align-items: center;
     height: 80%;
     flex-direction: column;
+    margin-top: -50px;
   }
 
   .link {
@@ -141,5 +142,6 @@ const MobileMenu = styled.div`
     font-size: 1.5rem;
     margin: 1rem 0;
     text-transform: uppercase;
+    border: none;
   }
 `;
