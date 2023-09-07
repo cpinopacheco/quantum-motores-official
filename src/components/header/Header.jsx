@@ -1,11 +1,16 @@
+import { styled } from "styled-components";
 import Navbar from "../navbar/Navbar";
 
 const Header = () => {
   return (
-    <header>
+    <HeaderContainer>
       <Navbar></Navbar>
-    </header>
+    </HeaderContainer>
   );
 };
 
 export default Header;
+
+const HeaderContainer = styled.header`
+  background-color: var(--primary-color);
+`;

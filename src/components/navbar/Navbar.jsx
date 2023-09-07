@@ -73,10 +73,11 @@ export default Navbar;
 const NavContainer = styled.nav`
   height: 100px;
   padding: 0 1.5rem;
-  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
 
   /* cambiar por logo */
   h2 {
@@ -118,7 +119,7 @@ const MobileMenu = styled.div`
   width: 100%;
   height: 100%;
   transition: all 0.8s ease;
-  border-radius: 0 0 80% 0;
+  border-radius: 0 0 35% 0;
   height: 85vh;
 
   &.active {
