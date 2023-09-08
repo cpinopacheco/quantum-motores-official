@@ -113,14 +113,15 @@ const NavContainer = styled.nav`
 
 const MobileMenu = styled.div`
   background-color: var(--primary-color);
-  position: absolute;
+  position: fixed;
   top: 100px;
   left: -1000px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   transition: all 0.8s ease;
-  border-radius: 0 0 35% 0;
-  height: 85vh;
 
   &.active {
     top: 100px;
