@@ -18,7 +18,10 @@ const Banner = () => {
               excepturi rerum voluptatibus pariatur adipisci numquam nulla
               cupiditate maxime et in.
             </Message>
-            <MainButton />
+            <MainButton
+              onClick={() => console.log("click banner")}
+              content="Click to action"
+            ></MainButton>
           </InfoContainer>
           <MotorBanner src={motorBanner} alt="" />
         </Container>
@@ -56,7 +59,9 @@ const InfoContainer = styled.div`
   }
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 2.5rem;
+`;
 
 const StrongText = styled.span`
   color: var(--secondary-color);

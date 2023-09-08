@@ -19,12 +19,11 @@ const Home = () => {
         </SectionDescription>
       </SectionContent>
       <SectionContent>
-        <Title title="Nuestros Servicios"></Title>
+        <Title title="Amplia gama de servicios"></Title>
         <SectionDescription>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
-          dignissimos, tempora velit aut quis aperiam aliquam nemo ducimus quia
-          animi, quae accusamus inventore molestias eveniet est corporis soluta
-          eos temporibus.
+          Con muchos años de experiencia en el mercado, suministrando una amplia
+          gama de servicios contamos con personal altamente capacitado y
+          disponible para cualquier solicitud que ustedes requieran.
         </SectionDescription>
       </SectionContent>
       <ServicesBanner></ServicesBanner>
@@ -47,7 +46,7 @@ export default Home;
 const SectionContent = styled.section`
   width: 80%;
   max-width: 900px;
-  margin: 6rem auto;
+  margin: 5rem auto;
 `;
 
 const SectionDescription = styled.p`

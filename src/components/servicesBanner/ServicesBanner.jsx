@@ -1,8 +1,16 @@
 import styled from "styled-components";
 import electricMotorImg from "../servicesBanner/assets/motores-electricos.jpg";
 import iconCheck from "../servicesBanner/assets/icon-check.svg";
+import MainButton from "../mainButton/MainButton";
+import { useNavigate } from "react-router-dom";
 
 const ServicesBanner = () => {
+  const navigate = useNavigate();
+
+  const redirectToServices = () => {
+    navigate("/servicios");
+  };
+
   return (
     <ContainerBanner>
       <ItemService>
@@ -29,6 +37,12 @@ const ServicesBanner = () => {
         <IconCheck src={iconCheck} alt="icon-check" />
         <p>Trabajos Obras Civiles</p>
       </ItemService>
+      <ContainerButton>
+        <MainButton
+          onClick={() => redirectToServices()}
+          content="Ver mas"
+        ></MainButton>
+      </ContainerButton>
     </ContainerBanner>
   );
 };
@@ -41,17 +55,13 @@ const ContainerBanner = styled.div`
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  background-blend-mode: soft-light;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2rem;
+  background-blend-mode: screen;
+  padding: 2rem 3rem;
 `;
 
 const IconCheck = styled.img`
-  width: 31px;
-  height: 31px;
+  width: 30px;
+  height: 30px;
 `;
 
 const ItemService = styled.div`
@@ -60,9 +70,16 @@ const ItemService = styled.div`
   gap: 0.5rem;
   color: var(--primary-color);
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  margin: 2rem 0;
 
   @media (min-width: 576px) {
     justify-content: center;
   }
+`;
+
+const ContainerButton = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
 `;
