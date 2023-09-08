@@ -1,5 +1,7 @@
+import Title from "../components/title/Title";
+
 const Services = () => {
-  return <div>Servicios</div>;
+  return <Title title="Nuestros Servicios"></Title>;
 };
 
 export default Services;

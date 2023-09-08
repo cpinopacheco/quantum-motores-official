@@ -1,5 +1,12 @@
+import Title from "../components/title/Title";
+
 const Contact = () => {
-  return <div>Contacto</div>;
+  return (
+    <>
+      <Title title="Contactenos"></Title>
+      <Title title="Visitenos"></Title>;
+    </>
+  );
 };
 
 export default Contact;
