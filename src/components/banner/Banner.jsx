@@ -82,4 +82,5 @@ const MotorBanner = styled.img`
 
 const DoubleWaveImg = styled.img`
   width: 100%;
+  margin-top: -1px;
 `;
