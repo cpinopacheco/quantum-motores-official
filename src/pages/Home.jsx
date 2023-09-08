@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Banner from "../components/banner/Banner";
 import Title from "../components/title/Title";
+import ServicesBanner from "../components/servicesBanner/ServicesBanner";
 
 const Home = () => {
   return (
@@ -26,6 +27,17 @@ const Home = () => {
           eos temporibus.
         </SectionDescription>
       </SectionContent>
+      <ServicesBanner></ServicesBanner>
+
+      <SectionContent>
+        <Title title="Ejemplo"></Title>
+        <SectionDescription>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+          dignissimos, tempora velit aut quis aperiam aliquam nemo ducimus quia
+          animi, quae accusamus inventore molestias eveniet est corporis soluta
+          eos temporibus.
+        </SectionDescription>
+      </SectionContent>
     </>
   );
 };
@@ -35,7 +47,7 @@ export default Home;
 const SectionContent = styled.section`
   width: 80%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 6rem auto;
 `;
 
 const SectionDescription = styled.p`

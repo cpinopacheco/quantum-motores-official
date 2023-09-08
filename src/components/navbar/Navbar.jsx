@@ -112,8 +112,8 @@ const NavContainer = styled.nav`
 `;
 
 const MobileMenu = styled.div`
+  position: absolute;
   background-color: var(--primary-color);
-  position: fixed;
   top: 100px;
   left: -1000px;
   width: 100%;
@@ -124,7 +124,6 @@ const MobileMenu = styled.div`
   transition: all 0.8s ease;
 
   &.active {
-    top: 100px;
     left: 0;
     width: 100%;
   }
