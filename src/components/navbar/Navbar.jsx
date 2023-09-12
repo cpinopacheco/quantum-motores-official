@@ -52,15 +52,21 @@ const Navbar = () => {
           </>
         ) : (
           <div className="links">
-            <NavLink onClick={handleClick} to="/">
-              Inicio
-            </NavLink>
-            <NavLink onClick={handleClick} to="/servicios">
-              Servicios
-            </NavLink>
-            <NavLink onClick={handleClick} to="/contacto">
-              Contacto
-            </NavLink>
+            <div className="linkContainer">
+              <NavLink onClick={handleClick} to="/" className="link">
+                Inicio
+              </NavLink>
+            </div>
+            <div className="linkContainer">
+              <NavLink onClick={handleClick} to="/servicios" className="link">
+                Servicios
+              </NavLink>
+            </div>
+            <div className="linkContainer">
+              <NavLink onClick={handleClick} to="/contacto" className="link">
+                Contacto
+              </NavLink>
+            </div>
           </div>
         )}
       </NavContainer>
@@ -85,23 +91,49 @@ const NavContainer = styled.nav`
     font-weight: 600;
   }
 
-  a {
+  .links {
+    display: flex;
+  }
+
+  .linkContainer {
+    border-left: 3px solid var(--secondary-color);
+  }
+
+  .linkContainer:first-child {
+    border-left: none;
+  }
+
+  /* Enlaces */
+  .link {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 1.5rem;
-    border-left: 3px solid var(--secondary-color);
-    transition: 0.2s;
+    margin: 0 1.5rem;
+    transition: 0.4s;
+    position: relative;
   }
 
   @media (min-width: 992px) {
-    a:hover {
+    .link:hover {
       color: var(--secondary-color);
     }
-  }
 
-  a:first-child {
-    border-left: none;
+    .link::before {
+      content: "";
+      width: 0;
+      height: 2px;
+      border-radius: 2px;
+      background-color: var(--secondary-color);
+      position: absolute;
+      bottom: -0.25rem;
+      right: 0;
+      transition: right 0.4s, width 0.4s, left 0.4s;
+    }
+
+    .link:hover::before {
+      width: 100%;
+      left: 0;
+    }
   }
 
   .burger {

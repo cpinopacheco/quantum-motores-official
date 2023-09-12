@@ -32,6 +32,7 @@ const HeaderContainer = styled.header`
   top: 0;
   width: 100%;
   transition: 0.2s;
+  z-index: 1;
   &.active {
     box-shadow: 0px -10px 20px var(--tertiary-color);
   }
