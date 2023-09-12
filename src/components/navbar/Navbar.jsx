@@ -111,7 +111,7 @@ const NavContainer = styled.nav`
   }
 `;
 
-const MobileMenu = styled.div`
+const MobileMenu = styled.aside`
   position: absolute;
   background-color: var(--primary-color);
   top: 100px;

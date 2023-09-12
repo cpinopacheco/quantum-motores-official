@@ -69,27 +69,10 @@ const ContactContainer = styled.div`
   .link {
     color: #fff;
     text-decoration: none;
-    line-height: 2;
-    position: relative;
-
-    @media (min-width: 992px) {
-      &::before {
-        content: "";
-        width: 100%;
-        height: 3px;
-        border-radius: 2px;
-        background-color: var(--secondary-color);
-        position: absolute;
-        bottom: -0.5rem;
-        left: 0;
-        transition: transform 0.6s, opacity 0.6s;
-        opacity: 0;
-      }
-      &:hover::before {
-        transform: translateY(-0.25rem);
-        opacity: 1;
-      }
-    }
+    transition: color 0.2s;
+  }
+  .link:hover {
+    color: var(--secondary-color);
   }
   .link span {
     margin-left: 0.5rem;

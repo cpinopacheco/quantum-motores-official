@@ -26,6 +26,9 @@ const Home = () => {
           disponible para cualquier solicitud que ustedes requieran.
         </SectionDescription>
       </SectionContent>
+
+      <ServicesBanner></ServicesBanner>
+
       <SectionContent>
         <Title title="Sección Marcas"></Title>
         <SectionDescription>
@@ -35,8 +38,6 @@ const Home = () => {
           eos temporibus.
         </SectionDescription>
       </SectionContent>
-
-      <ServicesBanner></ServicesBanner>
 
       <SectionContent>
         <Title title="Valoraciones cliente"></Title>
