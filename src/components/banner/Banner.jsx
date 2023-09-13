@@ -4,6 +4,10 @@ import doubleWave from "../banner/assets/double-wave.svg";
 import motorBanner from "../banner/assets/motor-banner.png";
 
 const Banner = () => {
+  const handleClick = () => {
+    console.log("click to action");
+  };
+
   return (
     <>
       <BannerContainer>
@@ -19,7 +23,7 @@ const Banner = () => {
               cupiditate maxime et in.
             </Message>
             <MainButton
-              onClick={() => console.log("click banner")}
+              onClick={handleClick}
               content="Click to action"
             ></MainButton>
           </InfoContainer>

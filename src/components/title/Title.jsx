@@ -8,8 +8,8 @@ const Title = ({ title }) => {
 export default Title;
 
 const MainTitle = styled.h2`
-  margin: 0rem auto;
-  margin-bottom: 2rem;
+  text-align: center;
+  margin: 2rem auto;
   font-size: 2rem;
   color: var(--primary-color);
   width: fit-content;

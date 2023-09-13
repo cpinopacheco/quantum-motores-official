@@ -16,12 +16,12 @@ export default AnimatedBanner;
 
 const Content = styled.div`
   width: 100%;
-  height: 480px;
+  height: 280px;
   background-image: url(${image1});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation-name: animate;
+  animation-name: fade-effect;
   animation-direction: alternate;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
@@ -31,7 +31,15 @@ const Content = styled.div`
   margin-bottom: 4rem;
   position: relative;
 
-  @keyframes animate {
+  @media (min-width: 768px) {
+    height: 380px;
+  }
+
+  @media (min-width: 992px) {
+    height: 480px;
+  }
+
+  @keyframes fade-effect {
     0% {
       background-image: url(${image1});
     }

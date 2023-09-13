@@ -15,7 +15,7 @@ const Button = styled.button`
   border-radius: 20px;
   background-size: 100% auto;
   font-family: inherit;
-  font-size: 17px;
+  font-size: 1.2rem;
   padding: 0.6em 1.5em;
   cursor: pointer;
 
@@ -23,10 +23,10 @@ const Button = styled.button`
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
+    animation: pulse 1.5s infinite;
   }
 
-  @keyframes pulse512 {
+  @keyframes pulse {
     0% {
       box-shadow: 0 0 0 0 var(--secondary-color);
     }
