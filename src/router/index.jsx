@@ -3,11 +3,17 @@ import App from "../App";
 import Home from "../pages/Home";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
+import ScrollToTop from "../components/scrollToTop/ScrollToTop";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <>
+        <ScrollToTop />
+        <App />
+      </>
+    ),
     children: [
       {
         index: true,
