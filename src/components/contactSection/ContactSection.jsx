@@ -165,11 +165,7 @@ const ContactRow = styled.div`
 
 const ContactImage = styled.img`
   width: 100%;
-  max-width: 300px;
   max-height: 180px;
-
-  @media (min-width: 576px) {
-  }
 `;
 
 const ContactInfo = styled.p`

@@ -71,10 +71,13 @@ const ContactContainer = styled.div`
     text-decoration: none;
     transition: color 0.2s;
   }
-  .link:hover {
-    color: var(--secondary-color);
-  }
   .link span {
     margin-left: 0.5rem;
+  }
+
+  @media (min-width: 992px) {
+    .link:hover {
+      color: var(--secondary-color);
+    }
   }
 `;

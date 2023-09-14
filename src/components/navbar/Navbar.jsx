@@ -153,7 +153,7 @@ const MobileMenu = styled.aside`
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: all 0.8s ease;
+  transition: all 0.8s ease-in-out;
 
   &.active {
     left: 0;
