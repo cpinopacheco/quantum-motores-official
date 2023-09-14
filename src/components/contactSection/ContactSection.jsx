@@ -91,13 +91,12 @@ const Container = styled.div`
     margin: 0 auto;
     margin-top: 2rem;
     border: none;
-    background-color: var(--secondary-color);
-    font-weight: 600;
-    color: var(--primary-color);
     border-radius: 20px;
+    background-color: var(--secondary-color);
     background-size: 100% auto;
-    font-family: inherit;
-    font-size: 17px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1rem;
     padding: 0.6em 1.5em;
     text-decoration: none;
     cursor: pointer;
