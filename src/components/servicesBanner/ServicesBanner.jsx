@@ -50,7 +50,7 @@ const ServicesBanner = () => {
 export default ServicesBanner;
 
 const ContainerBanner = styled.div`
-  background-color: var(--tertiary-color);
+  background-color: rgb(193, 196, 233, 0.9);
   background-image: url(${electricMotorImg});
   background-size: cover;
   background-position: center;
