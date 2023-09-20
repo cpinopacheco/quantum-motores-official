@@ -56,7 +56,7 @@ const ContainerBanner = styled.div`
   background-position: center;
   overflow: hidden;
   background-blend-mode: screen;
-  padding: 2rem;
+  padding: 0 2rem;
 `;
 
 const IconCheck = styled.img`

@@ -35,6 +35,7 @@ const DirectionText = styled.p`
   color: var(--primary-color);
   font-size: 1.2rem;
   text-align: center;
+  margin: 0 2rem;
 `;
 
 const Container = styled.div`

@@ -7,6 +7,7 @@ import {
 
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import ScrollToTopButton from "../scrollTopButton/ScrollToTopButton";
 
 const Footer = () => {
   return (
@@ -41,6 +42,7 @@ const Footer = () => {
           <small> &copy; Quantum Motores</small>{" "}
         </p>
       </div>
+      <ScrollToTopButton></ScrollToTopButton>
     </FooterContainer>
   );
 };
@@ -53,7 +55,9 @@ const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1;
   place-items: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
+  margin-top: 8rem;
+  position: relative;
   @media (min-width: 992px) {
     grid-template-columns: repeat(3, 1fr);
   }

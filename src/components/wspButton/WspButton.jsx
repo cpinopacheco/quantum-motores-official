@@ -10,7 +10,7 @@ const wspSetting = {
 const WspButton = () => {
   return (
     <WspBtn>
-      <Link to={wspSetting.url} className="link">
+      <Link to={wspSetting.url} className="link" target="_blank">
         <FontAwesomeIcon icon={faWhatsapp} />
       </Link>
     </WspBtn>
@@ -19,7 +19,7 @@ const WspButton = () => {
 
 export default WspButton;
 
-const WspBtn = styled.button`
+const WspBtn = styled.div`
   position: fixed;
   width: 70px;
   height: 70px;

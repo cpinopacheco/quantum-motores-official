@@ -7,74 +7,72 @@ import { Link } from "react-router-dom";
 const ContactSection = () => {
   return (
     <SectionContainer>
-      <ContactContainer>
-        <ContactRow>
-          <ContactImage src={contactPhone}></ContactImage>
-          <Container>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-              distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-              beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-              maxime vero.
-            </p>
-            <Link
-              to="tel:+56957409074"
-              title="Llamar"
-              className="contact-link"
-              target="_blank"
-            >
-              <ContactInfo>Llamar</ContactInfo>
-            </Link>
-          </Container>
-        </ContactRow>
-        <ContactRow>
-          <ContactImage src={mail}></ContactImage>
-          <Container>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-              distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-              beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-              maxime vero.
-            </p>
-            <Link
-              to="mailto:contacto@quantum-motores.cl"
-              title="Enviar mail"
-              className="contact-link"
-              target="_blank"
-            >
-              <ContactInfo>Enviar correo</ContactInfo>
-            </Link>
-          </Container>
-        </ContactRow>
-        <ContactRow>
-          <ContactImage src={chat}></ContactImage>
-          <Container>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-              distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-              beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-              maxime vero.
-            </p>
-            <Link
-              to="https://api.whatsapp.com/send?phone=56982113710"
-              title="Chat Whatsapp"
-              className="contact-link"
-              target="_blank"
-            >
-              <ContactInfo>Chatear</ContactInfo>
-            </Link>
-          </Container>
-        </ContactRow>
-      </ContactContainer>
+      <ContactRow>
+        <ContactImage src={contactPhone}></ContactImage>
+        <Container>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
+            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
+            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
+            maxime vero.
+          </p>
+          <Link
+            to="tel:+56957409074"
+            title="Llamar"
+            className="contact-link"
+            target="_blank"
+          >
+            <ContactInfo>Llamar</ContactInfo>
+          </Link>
+        </Container>
+      </ContactRow>
+      <ContactRow>
+        <ContactImage src={mail}></ContactImage>
+        <Container>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
+            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
+            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
+            maxime vero.
+          </p>
+          <Link
+            to="mailto:contacto@quantum-motores.cl"
+            title="Enviar mail"
+            className="contact-link"
+            target="_blank"
+          >
+            <ContactInfo>Enviar correo</ContactInfo>
+          </Link>
+        </Container>
+      </ContactRow>
+      <ContactRow>
+        <ContactImage src={chat}></ContactImage>
+        <Container>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
+            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
+            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
+            maxime vero.
+          </p>
+          <Link
+            to="https://api.whatsapp.com/send?phone=56982113710"
+            title="Chat Whatsapp"
+            className="contact-link"
+            target="_blank"
+          >
+            <ContactInfo>Chatear</ContactInfo>
+          </Link>
+        </Container>
+      </ContactRow>
     </SectionContainer>
   );
 };
 
 export default ContactSection;
 
-const SectionContainer = styled.section``;
-
-const ContactContainer = styled.div``;
+const SectionContainer = styled.section`
+  margin-bottom: 5rem;
+`;
 
 const Container = styled.div`
   p {
