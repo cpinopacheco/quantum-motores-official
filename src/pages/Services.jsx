@@ -92,7 +92,5 @@ const ContainerCards = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin: 0 auto;
   margin-bottom: 2rem;
-  @media (min-width: 1200px) {
-    width: 80%;
-  }
+  width: 80%;
 `;
