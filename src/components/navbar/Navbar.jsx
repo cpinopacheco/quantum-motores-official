@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const [width, setWidth] = useState(window.innerWidth);
 
-  const handleClick = () => {
+  const isClicked = () => {
     setClicked(!clicked);
   };
 
@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>
       <NavContainer>
-        <NavLink onClick={handleClick} to="/" className="link">
+        <NavLink to="/" className="link">
           Logo
         </NavLink>
 
@@ -35,35 +35,35 @@ const Navbar = () => {
           <>
             <MobileMenu className={`${clicked ? " active" : ""}`}>
               <div className="linksContainer">
-                <NavLink onClick={handleClick} to="/" className="link">
+                <NavLink onClick={isClicked} to="/" className="link">
                   Inicio
                 </NavLink>
-                <NavLink onClick={handleClick} to="/servicios" className="link">
+                <NavLink onClick={isClicked} to="/servicios" className="link">
                   Servicios
                 </NavLink>
-                <NavLink onClick={handleClick} to="/contacto" className="link">
+                <NavLink onClick={isClicked} to="/contacto" className="link">
                   Contacto
                 </NavLink>
               </div>
             </MobileMenu>
             <div className="burger">
-              <BurgerButton clicked={clicked} handleClick={handleClick} />
+              <BurgerButton clicked={clicked} handleClick={isClicked} />
             </div>
           </>
         ) : (
           <div className="links" data-aos="fade-down" data-aos-duration="1200">
             <div className="linkContainer">
-              <NavLink onClick={handleClick} to="/" className="link">
+              <NavLink onClick={isClicked} to="/" className="link">
                 Inicio
               </NavLink>
             </div>
             <div className="linkContainer">
-              <NavLink onClick={handleClick} to="/servicios" className="link">
+              <NavLink onClick={isClicked} to="/servicios" className="link">
                 Servicios
               </NavLink>
             </div>
             <div className="linkContainer">
-              <NavLink onClick={handleClick} to="/contacto" className="link">
+              <NavLink onClick={isClicked} to="/contacto" className="link">
                 Contacto
               </NavLink>
             </div>
