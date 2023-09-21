@@ -33,6 +33,18 @@ const WspBtn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fade-up 1.2s ease forwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(120px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
   .link {
     color: #fff;

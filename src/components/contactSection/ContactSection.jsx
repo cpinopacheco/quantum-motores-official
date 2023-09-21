@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const ContactSection = () => {
   return (
     <SectionContainer>
-      <ContactRow>
+      <ContactRow data-aos="fade-up">
         <ContactImage src={contactPhone}></ContactImage>
         <Container>
           <p>
@@ -26,7 +26,7 @@ const ContactSection = () => {
           </Link>
         </Container>
       </ContactRow>
-      <ContactRow>
+      <ContactRow data-aos="fade-up">
         <ContactImage src={mail}></ContactImage>
         <Container>
           <p>
@@ -45,7 +45,7 @@ const ContactSection = () => {
           </Link>
         </Container>
       </ContactRow>
-      <ContactRow>
+      <ContactRow data-aos="fade-up">
         <ContactImage src={chat}></ContactImage>
         <Container>
           <p>
