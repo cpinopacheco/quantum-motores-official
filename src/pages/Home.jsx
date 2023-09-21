@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
-      <SectionContent>
+      <SectionContent data-aos="fade-up">
         <Title title="Bienvenidos a Quantum Motores"></Title>
         <SectionDescription>
           Somos una empresa dedicada a la mantención, reparación y bobinados de
@@ -18,7 +18,7 @@ const Home = () => {
           disponible para cualquier solicitud que ustedes requieran.
         </SectionDescription>
       </SectionContent>
-      <SectionContent>
+      <SectionContent data-aos="fade-up">
         <Title title="Amplia gama de servicios"></Title>
         <SectionDescription>
           Con muchos años de experiencia en el mercado, suministrando una amplia
@@ -29,7 +29,7 @@ const Home = () => {
 
       <ServicesBanner></ServicesBanner>
 
-      <SectionContent>
+      <SectionContent data-aos="fade-up">
         <Title title="Sección Marcas"></Title>
         <SectionDescription>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
@@ -39,7 +39,7 @@ const Home = () => {
         </SectionDescription>
       </SectionContent>
 
-      <SectionContent>
+      <SectionContent data-aos="fade-up">
         <Title title="Valoraciones cliente"></Title>
         <SectionDescription>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
@@ -57,7 +57,12 @@ export default Home;
 const SectionContent = styled.section`
   width: 80%;
   max-width: 900px;
-  margin: 5rem auto;
+  margin: 4rem auto;
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
 `;
 
 const SectionDescription = styled.p`

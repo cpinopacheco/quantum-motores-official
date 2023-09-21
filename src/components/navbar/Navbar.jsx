@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
           </>
         ) : (
-          <div className="links">
+          <div className="links" data-aos="fade-down" data-aos-duration="1200">
             <div className="linkContainer">
               <NavLink onClick={handleClick} to="/" className="link">
                 Inicio

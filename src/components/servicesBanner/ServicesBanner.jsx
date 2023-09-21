@@ -12,7 +12,7 @@ const ServicesBanner = () => {
   };
 
   return (
-    <ContainerBanner>
+    <ContainerBanner data-aos="fade" data-aos-duration="1000">
       <ItemService>
         <IconCheck src={iconCheck} alt="icon-check" />
         <p>Mantención y Reparación de Motores</p>
@@ -57,6 +57,7 @@ const ContainerBanner = styled.div`
   overflow: hidden;
   background-blend-mode: screen;
   padding: 0 2rem;
+  margin-bottom: 5rem;
 `;
 
 const IconCheck = styled.img`

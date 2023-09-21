@@ -11,7 +11,7 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <ButtonContainer onClick={scrollToTop} title="Ir arriba">
+    <ButtonContainer onClick={scrollToTop} title="Ir arriba" data-aos="fade-up">
       <FontAwesomeIcon icon={faChevronUp} />
     </ButtonContainer>
   );
