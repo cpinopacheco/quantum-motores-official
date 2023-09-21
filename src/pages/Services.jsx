@@ -75,7 +75,9 @@ const Services = () => {
   return (
     <>
       <AnimatedBanner></AnimatedBanner>
-      <Title title="Nuestros Servicios"></Title>
+      <div data-aos="fade-up">
+        <Title title="Nuestros Servicios"></Title>
+      </div>
       <ContainerCards>
         {services.map((service) => (
           <Card service={service} key={service.id}></Card>

@@ -4,7 +4,7 @@ const Card = ({ service }) => {
   const { img, title, subServices } = service;
 
   return (
-    <ContainerCard>
+    <ContainerCard data-aos="fade-up">
       <HeaderCard>
         <Image src={img} />
       </HeaderCard>
