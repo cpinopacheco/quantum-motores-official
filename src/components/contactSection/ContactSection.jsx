@@ -17,7 +17,7 @@ const ContactSection = () => {
             maxime vero.
           </p>
           <Link
-            to="tel:+56957409074"
+            to="tel:+56982113710"
             title="Llamar"
             className="contact-link"
             target="_blank"

@@ -14,7 +14,7 @@ const Footer = () => {
     <FooterContainer>
       <ContactContainer>
         <h4>Contacto: </h4>
-        <Link to="tel:+56957409074" title="Llamar" className="link">
+        <Link to="tel:+56982113710" title="Llamar" className="link">
           <FontAwesomeIcon icon={faPhone} />
           <span>+ 56 9 821 13 710</span>
         </Link>

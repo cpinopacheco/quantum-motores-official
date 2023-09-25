@@ -21,8 +21,8 @@ const Home = () => {
       <SectionContent data-aos="fade-up">
         <Title title="Amplia gama de servicios"></Title>
         <SectionDescription>
-          Con muchos años de experiencia en el mercado, suministrando una amplia
-          gama de servicios contamos con personal altamente capacitado y
+          Con muchos años de experiencia en el mercado, suministramos una amplia
+          gama de servicios, contando con personal altamente capacitado y
           disponible para cualquier solicitud que ustedes requieran.
         </SectionDescription>
       </SectionContent>
@@ -31,16 +31,6 @@ const Home = () => {
 
       <SectionContent data-aos="fade-up">
         <Title title="Sección Marcas"></Title>
-        <SectionDescription>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
-          dignissimos, tempora velit aut quis aperiam aliquam nemo ducimus quia
-          animi, quae accusamus inventore molestias eveniet est corporis soluta
-          eos temporibus.
-        </SectionDescription>
-      </SectionContent>
-
-      <SectionContent data-aos="fade-up">
-        <Title title="Valoraciones cliente"></Title>
         <SectionDescription>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
           dignissimos, tempora velit aut quis aperiam aliquam nemo ducimus quia

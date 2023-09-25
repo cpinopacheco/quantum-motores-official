@@ -82,5 +82,5 @@ const ItemService = styled.div`
 const ContainerButton = styled.div`
   display: flex;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
 `;
