@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <>
       <div data-aos="fade-up">
-        <Title title="Contáctenos"></Title>
+        <Title>Contáctenos</Title>
       </div>
       <ContactSection></ContactSection>
       <div data-aos="fade-up">
-        <Title title="Visítenos"></Title>
+        <Title>Visítenos</Title>
       </div>
       <VisitUs></VisitUs>
     </>

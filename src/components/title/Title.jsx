@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import styled from "styled-components";
 
-const Title = ({ title }) => {
-  return <MainTitle>{title}</MainTitle>;
+const Title = ({ children }) => {
+  return <MainTitle>{children}</MainTitle>;
 };
 
 export default Title;

@@ -76,7 +76,7 @@ const Services = () => {
     <>
       <AnimatedBanner></AnimatedBanner>
       <div data-aos="fade-up">
-        <Title title="Nuestros Servicios"></Title>
+        <Title>Nuestros Servicios</Title>
       </div>
       <ContainerCards>
         {services.map((service) => (
