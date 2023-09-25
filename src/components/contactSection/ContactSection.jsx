@@ -11,10 +11,12 @@ const ContactSection = () => {
         <ContactImage src={contactPhone}></ContactImage>
         <Container>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-            maxime vero.
+            En <b>Quantum Motores</b>, estamos comprometidos en brindarte la
+            mejor asistencia posible y responder a tus preguntas de manera
+            rápida y efectiva.
+          </p>
+          <p>
+            <b>¡No dudes en llamarnos</b>!
           </p>
           <Link
             to="tel:+56982113710"
@@ -22,7 +24,7 @@ const ContactSection = () => {
             className="contact-link"
             target="_blank"
           >
-            <ContactInfo>Llamar</ContactInfo>
+            Llamar
           </Link>
         </Container>
       </ContactRow>
@@ -30,10 +32,10 @@ const ContactSection = () => {
         <ContactImage src={mail}></ContactImage>
         <Container>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-            maxime vero.
+            Si tienes alguna pregunta, necesitas asistencia o simplemente deseas
+            compartir tus comentarios con nosotros, te animamos a que nos
+            contactes por <b>correo electrónico</b>. Nuestro equipo estará
+            encantado de ayudarte.
           </p>
           <Link
             to="mailto:contacto@quantum-motores.cl"
@@ -41,7 +43,7 @@ const ContactSection = () => {
             className="contact-link"
             target="_blank"
           >
-            <ContactInfo>Enviar correo</ContactInfo>
+            Enviar correo
           </Link>
         </Container>
       </ContactRow>
@@ -49,10 +51,9 @@ const ContactSection = () => {
         <ContactImage src={chat}></ContactImage>
         <Container>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque a
-            distinctio enim, voluptatem nam ea, fugit similique ex pariatur
-            beatae aspernatur, vel repudiandae dolor ipsa. Aliquam nisi non
-            maxime vero.
+            Nuestro equipo de soporte está disponible en el chat para ayudarte
+            en tiempo real. Si necesitas asesoramiento, simplemente haz click en
+            el botón <b>chatear</b> y estaremos listos para atenderte.
           </p>
           <Link
             to="https://api.whatsapp.com/send?phone=56982113710"
@@ -60,7 +61,7 @@ const ContactSection = () => {
             className="contact-link"
             target="_blank"
           >
-            <ContactInfo>Chatear</ContactInfo>
+            Chatear
           </Link>
         </Container>
       </ContactRow>
@@ -77,6 +78,7 @@ const SectionContainer = styled.section`
 const Container = styled.div`
   p {
     color: var(--primary-color);
+    margin-bottom: 1rem;
 
     @media (min-width: 992px) {
       text-align: center;
@@ -163,11 +165,4 @@ const ContactRow = styled.div`
 const ContactImage = styled.img`
   width: 100%;
   max-height: 180px;
-`;
-
-const ContactInfo = styled.p`
-  color: var(--primary-color);
-  @media (min-width: 1400px) {
-    font-size: 1.2rem;
-  }
 `;
