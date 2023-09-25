@@ -15,15 +15,19 @@ const Home = () => {
           procesos productivos y logísticos dentro de su compañía. <br />
           Con muchos años de experiencia en el mercado, suministrando una amplia
           gama de servicios contamos con personal altamente capacitado y
-          disponible para cualquier solicitud que ustedes requieran.
+          disponible para cualquier solicitud que ustedes requieran. <br />
+          Creemos que nuestras habilidades y experiencia pueden ser de gran
+          beneficio para ti.
         </SectionDescription>
       </SectionContent>
       <SectionContent data-aos="fade-up">
         <Title>Amplia gama de servicios</Title>
         <SectionDescription>
-          Con muchos años de experiencia en el mercado, suministramos una amplia
-          gama de servicios, contando con personal altamente capacitado y
-          disponible para cualquier solicitud que ustedes requieran.
+          En <b>Quantum Motores</b> estamos comprometidos en proporcionar
+          soluciones excepcionales a nuestros clientes, y nos gustaría ofrecerte
+          nuestros servicios para cubrir tus necesidades de manera confiable y
+          efectiva. A continuación puedes revisar nuestra oferta de servicios
+          que tenemos para ti:
         </SectionDescription>
       </SectionContent>
 
