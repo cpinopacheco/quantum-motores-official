@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import MainButton from "../mainButton/MainButton";
 import doubleWave from "../banner/assets/double-wave.svg";
-import motorBanner from "../banner/assets/motor-banner.png";
+import ImageGallery from "../imageGallery/ImageGallery";
 
 const Banner = () => {
   const handleClick = () => {
@@ -18,16 +18,16 @@ const Banner = () => {
               atención
             </Title>
             <Message>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
-              excepturi rerum voluptatibus pariatur adipisci numquam nulla
-              cupiditate maxime et in.
+              Priorizamos la calidad, puntualidad y costos garantizando un
+              servicio de excelencia para tu completa satisfacción y
+              tranquilidad. Te invitamos a conocernos!
             </Message>
             <MainButton
               onClick={handleClick}
               content="Click to action"
             ></MainButton>
           </InfoContainer>
-          <MotorBanner src={motorBanner} alt="" />
+          <ImageGallery></ImageGallery>
         </Container>
       </BannerContainer>
       <DoubleWaveImg src={doubleWave} alt="doubleWave" />
@@ -45,13 +45,15 @@ const BannerContainer = styled.div`
 `;
 
 const Container = styled.div`
+  padding: 2rem;
+
   @media (min-width: 992px) {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     text-align: start;
-    padding: 2rem;
+    padding: 2rem 4rem;
     max-width: 1400px;
     margin: 0 auto;
   }
@@ -60,6 +62,10 @@ const Container = styled.div`
 const InfoContainer = styled.div`
   @media (min-width: 992px) {
     max-width: 50%;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 40%;
   }
 `;
 
@@ -73,15 +79,6 @@ const StrongText = styled.span`
 
 const Message = styled.p`
   margin: 2rem 0;
-`;
-
-const MotorBanner = styled.img`
-  display: none;
-  max-width: 400px;
-
-  @media (min-width: 992px) {
-    display: block;
-  }
 `;
 
 const DoubleWaveImg = styled.img`
