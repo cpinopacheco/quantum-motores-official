@@ -19,12 +19,12 @@ const Banner = () => {
             </Title>
             <Message>
               Priorizamos la calidad, puntualidad y costos garantizando un
-              servicio de excelencia para tu completa satisfacción y
-              tranquilidad. Te invitamos a conocernos!
+              servicio de excelencia para su completa satisfacción y
+              tranquilidad. Les invitamos a conocernos!
             </Message>
             <MainButton
               onClick={handleClick}
-              content="Click to action"
+              content="Call to action"
             ></MainButton>
           </InfoContainer>
           <ImageGallery></ImageGallery>

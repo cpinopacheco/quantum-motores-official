@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import image1 from "./assets/animationImg1.jpg";
-import image2 from "./assets/animationImg2.jpg";
-import image3 from "./assets/animationImg3.jpg";
-import image4 from "./assets/animationImg4.jpg";
+import image1 from "./assets/1.jpg";
+import image2 from "./assets/2.jpg";
+import image3 from "./assets/3.jpg";
+import image4 from "./assets/4.jpg";
 
 const AnimatedBanner = () => {
   return (

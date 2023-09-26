@@ -11,12 +11,12 @@ const ContactSection = () => {
         <ContactImage src={contactPhone}></ContactImage>
         <Container>
           <p>
-            En <b>Quantum Motores</b>, estamos comprometidos en brindarte la
-            mejor asistencia posible y responder a tus preguntas de manera
+            En <b>Quantum Motores</b>, estamos comprometidos en brindarle la
+            mejor asistencia posible y responder a sus preguntas de manera
             rápida y efectiva.
           </p>
           <p>
-            <b>¡No dudes en llamarnos</b>!
+            <b>¡No dude en llamarnos</b>!
           </p>
           <Link
             to="tel:+56982113710"
@@ -32,10 +32,10 @@ const ContactSection = () => {
         <ContactImage src={mail}></ContactImage>
         <Container>
           <p>
-            Si tienes alguna pregunta, necesitas asistencia o simplemente deseas
-            compartir tus comentarios con nosotros, te animamos a que nos
-            contactes por <b>correo electrónico</b>. Nuestro equipo estará
-            encantado de ayudarte.
+            Si tiene alguna pregunta, necesita asistencia o simplemente desea
+            compartir sus comentarios con nosotros, lo animamos a que nos
+            contacte por <b>correo electrónico</b>. Nuestro equipo estará
+            encantado de ayudarlo.
           </p>
           <Link
             to="mailto:contacto@quantum-motores.cl"
@@ -51,9 +51,9 @@ const ContactSection = () => {
         <ContactImage src={chat}></ContactImage>
         <Container>
           <p>
-            Nuestro equipo de soporte está disponible en el chat para ayudarte
-            en tiempo real. Si necesitas asesoramiento, simplemente haz click en
-            el botón <b>chatear</b> y estaremos listos para atenderte.
+            Nuestro equipo de soporte está disponible en el chat para ayudarlo
+            en tiempo real. Si necesita asesoramiento, simplemente haga click en
+            el botón <b>Chatear</b> y estaremos listos para atenderlo.
           </p>
           <Link
             to="https://api.whatsapp.com/send?phone=56982113710"
