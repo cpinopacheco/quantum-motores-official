@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Banner from "../components/banner/Banner";
 import Title from "../components/title/Title";
 import ServicesBanner from "../components/servicesBanner/ServicesBanner";
+import BrandsGallery from "../components/brandGallery/BrandsGallery";
 
 const Home = () => {
   return (
@@ -33,15 +34,10 @@ const Home = () => {
 
       <ServicesBanner></ServicesBanner>
 
-      <SectionContent data-aos="fade-up">
-        <Title>Sección Marcas</Title>
-        <SectionDescription>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
-          dignissimos, tempora velit aut quis aperiam aliquam nemo ducimus quia
-          animi, quae accusamus inventore molestias eveniet est corporis soluta
-          eos temporibus.
-        </SectionDescription>
-      </SectionContent>
+      <BrandContainer data-aos="fade-up">
+        <Title>Marcas</Title>
+        <BrandsGallery></BrandsGallery>
+      </BrandContainer>
     </>
   );
 };
@@ -61,4 +57,9 @@ const SectionContent = styled.section`
 
 const SectionDescription = styled.p`
   color: var(--primary-color);
+`;
+
+const BrandContainer = styled.div`
+  width: 80%;
+  margin: 0 auto;
 `;

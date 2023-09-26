@@ -53,7 +53,7 @@ const Container = styled.div`
     align-items: center;
     gap: 5rem;
     text-align: start;
-    padding: 2rem 4rem;
+    padding: 2rem 5rem;
     max-width: 1400px;
     margin: 0 auto;
   }
