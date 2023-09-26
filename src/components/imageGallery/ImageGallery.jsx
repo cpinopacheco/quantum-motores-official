@@ -81,16 +81,16 @@ const GalleryContainer = styled.div`
       top: 0px;
     }
     :nth-child(2) {
-      top: 100px;
-      left: 100px;
+      top: 110px;
+      left: 110px;
     }
     :nth-child(3) {
       top: -60px;
       left: 230px;
     }
     :nth-child(4) {
-      top: 100px;
-      left: 400px;
+      top: 110px;
+      left: 390px;
     }
     :nth-child(5) {
       top: 0px;
@@ -101,7 +101,7 @@ const GalleryContainer = styled.div`
 
 const ImageContainer = styled.div`
   position: absolute;
-  box-shadow: 0 0px 15px var(--secondary-color);
+  box-shadow: 0 0 15px var(--secondary-color);
   border-radius: 1rem;
   background-size: cover;
   background-repeat: no-repeat;

@@ -14,23 +14,29 @@ const Footer = () => {
     <FooterContainer>
       <ContactContainer>
         <h4>Contacto: </h4>
-        <Link to="tel:+56982113710" title="Llamar" className="link">
+        <Link
+          to="tel:+56982113710"
+          title="Llamar"
+          className="link"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faPhone} />
           <span>+ 56 9 821 13 710</span>
         </Link>
         <Link
-          to="https://goo.gl/maps/DdGg4r2CQUF88fDe9"
+          to="https://maps.app.goo.gl/KgnbLkJ8ycwezjsm8"
           title="Ubicación"
           className="link"
           target="_blank"
         >
           <FontAwesomeIcon icon={faLocationDot} />
-          <span>General Gana 1324, Santiago.</span>
+          <span>Brasil 937, La Cisterna - Santiago.</span>
         </Link>
         <Link
           to="mailto:contacto@quantum-motores.cl"
           title="Mail"
           className="link"
+          target="_blank"
         >
           <FontAwesomeIcon icon={faEnvelope} />
           <span>contacto@quantum-motores.cl</span>

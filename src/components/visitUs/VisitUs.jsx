@@ -5,14 +5,15 @@ const VisitUs = () => {
   return (
     <>
       <DirectionText data-aos="fade-up">
-        <b>Dirección:</b> General Gana 1324, Santiago.
+        <b>Dirección:</b> Brasil 937, La Cisterna - Santiago.
       </DirectionText>
       <Container data-aos="fade" data-aos-duration="1500">
         <Map
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.154942015588!2d-70.65300382493278!3d-33.47131659858002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c53e965912bf%3A0x8cd7191a99f8fcb0!2sGral.%20Gana%201324%2C%208361139%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1694701987934!5m2!1ses-419!2scl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.73758878506!2d-70.65558652492939!3d-33.534207601805385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662da58e98af94d%3A0xf443e943d58cfce8!2sBrasil%20937%2C%207980616%20La%20Cisterna%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1695736584638!5m2!1ses-419!2scl"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></Map>
+
         <LocationImage src={image} />
       </Container>
     </>
