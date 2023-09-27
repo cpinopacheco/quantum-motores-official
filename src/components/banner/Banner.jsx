@@ -14,8 +14,8 @@ const Banner = () => {
         <Container>
           <InfoContainer>
             <Title>
-              Titulo importante <StrongText>para llamar </StrongText> la
-              atención
+              Años de <StrongText>Experiencia</StrongText> y
+              <StrongText> Calidad </StrongText>a su servicio
             </Title>
             <Message>
               Priorizamos la calidad, puntualidad y costos garantizando un
