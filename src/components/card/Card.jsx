@@ -37,7 +37,8 @@ const HeaderCard = styled.div`
   height: 220px;
   background-size: cover;
   background-position: top;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   overflow-y: hidden;
 `;
 

@@ -1,9 +1,9 @@
-import image1 from "../components/card/assets/reparacion-motor.jpg";
-import image2 from "../components/card/assets/bobinado-de-motor.jpg";
+import image1 from "../components/card/assets/mantencion-reaparacion-motores.jpg";
+import image2 from "../components/card/assets/bobinado-motores-bombas.jpg";
 import image3 from "../components/card/assets/generadores-compresores.jpg";
-import image4 from "../components/card/assets/reparacion-bombas.jpg";
+import image4 from "../components/card/assets/mantencion-reparacion-bombas.jpg";
 import image5 from "../components/card/assets/torneria-maestranza.jpg";
-import image6 from "../components/card/assets/obras-civiles.png";
+import image6 from "../components/card/assets/obras-civiles.jpg";
 
 export const services = [
   {
@@ -62,7 +62,7 @@ export const services = [
   {
     id: "6",
     img: image6,
-    title: "Trabajos Obras Civiles Menores",
-    subServices: ["Obras Civiles Menores"],
+    title: "Obras Civiles Menores",
+    subServices: ["Movimiento de tierras", "Construcción veredas", "Construcciones en general", "Pavimentos", "Pintura - Reparaciones", "Otros"],
   },
 ];

@@ -14,8 +14,8 @@ const Banner = () => {
         <Container>
           <InfoContainer>
             <Title>
-              Años de <StrongText>Experiencia</StrongText> y
-              <StrongText> Calidad </StrongText>a su servicio
+              Aportando a la <StrongText>Optimización</StrongText> y
+              <StrongText> Mejora </StrongText> de equipos industriales.
             </Title>
             <Message>
               Priorizamos la calidad, puntualidad y costos garantizando un
@@ -53,7 +53,7 @@ const Container = styled.div`
     align-items: center;
     gap: 5rem;
     text-align: start;
-    padding: 2rem 5rem;
+    padding: 0 4rem;
     max-width: 1400px;
     margin: 0 auto;
   }
