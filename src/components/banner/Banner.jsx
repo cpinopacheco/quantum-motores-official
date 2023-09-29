@@ -1,13 +1,8 @@
 import styled from "styled-components";
-import MainButton from "../mainButton/MainButton";
 import doubleWave from "../banner/assets/double-wave.svg";
 import ImageGallery from "../imageGallery/ImageGallery";
 
 const Banner = () => {
-  const handleClick = () => {
-    console.log("click to action");
-  };
-
   return (
     <>
       <BannerContainer>
@@ -22,10 +17,6 @@ const Banner = () => {
               servicio de excelencia para su completa satisfacción y
               tranquilidad. Les invitamos a conocernos!
             </Message>
-            <MainButton
-              onClick={handleClick}
-              content="Call to action"
-            ></MainButton>
           </InfoContainer>
           <ImageGallery></ImageGallery>
         </Container>
@@ -45,7 +36,7 @@ const BannerContainer = styled.div`
 `;
 
 const Container = styled.div`
-  padding: 2rem;
+  padding: 0 2rem;
 
   @media (min-width: 992px) {
     display: flex;
@@ -53,7 +44,7 @@ const Container = styled.div`
     align-items: center;
     gap: 5rem;
     text-align: start;
-    padding: 0 4rem;
+    padding: 1rem 4rem;
     max-width: 1400px;
     margin: 0 auto;
   }

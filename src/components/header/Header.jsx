@@ -1,6 +1,8 @@
-import { styled } from "styled-components";
-import Navbar from "../navbar/Navbar";
 import { useEffect, useState } from "react";
+import Navbar from "../navbar/Navbar";
+import { NavLink } from "react-router-dom";
+import { styled } from "styled-components";
+import logo from "../header/assets/white-logo.svg";
 
 const Header = () => {
   const [onScroll, setOnScroll] = useState(false);
@@ -19,7 +21,12 @@ const Header = () => {
 
   return (
     <HeaderContainer className={`${onScroll ? "active" : ""} `}>
-      <Navbar></Navbar>
+      <ItemsContainer>
+        <NavLink to="/" className="link">
+          <Logo src={logo} alt="Logo Quantum Motores" />
+        </NavLink>
+        <Navbar></Navbar>
+      </ItemsContainer>
     </HeaderContainer>
   );
 };
@@ -33,7 +40,21 @@ const HeaderContainer = styled.header`
   width: 100%;
   transition: 0.2s;
   z-index: 3;
+
   &.active {
     box-shadow: 0px -10px 20px var(--tertiary-color);
   }
+`;
+
+const ItemsContainer = styled.div`
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+`;
+
+const Logo = styled.img`
+  width: 10rem;
 `;

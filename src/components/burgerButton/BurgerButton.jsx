@@ -20,9 +20,8 @@ export default BurgerButton;
 
 const Burguer = styled.div`
   .nav-icon-5 {
-    width: 35px;
+    width: 40px;
     height: 30px;
-    margin: 10px 10px;
     position: relative;
     cursor: pointer;
     display: inline-block;

@@ -27,10 +27,6 @@ const Navbar = () => {
   return (
     <>
       <NavContainer>
-        <NavLink to="/" className="link">
-          Logo
-        </NavLink>
-
         {width < 992 ? (
           <>
             <MobileMenu className={`${clicked ? " active" : ""}`}>
@@ -77,20 +73,7 @@ const Navbar = () => {
 export default Navbar;
 
 const NavContainer = styled.nav`
-  height: 100px;
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1400px;
-  margin: 0 auto;
-
-  /* cambiar por logo */
-  h2 {
-    color: #fff;
-    font-weight: 600;
-  }
-
+  /* Enlaces */
   .links {
     display: flex;
   }
@@ -103,7 +86,7 @@ const NavContainer = styled.nav`
     border-left: none;
   }
 
-  /* Enlaces */
+  /* Enlace */
   .link {
     color: white;
     text-decoration: none;
