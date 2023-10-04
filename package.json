@@ -24,6 +24,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
   },
+  "homepage": "https://www.quantum-motores.cl/",
   "name": "qm-test",
   "private": true,
   "scripts": {
