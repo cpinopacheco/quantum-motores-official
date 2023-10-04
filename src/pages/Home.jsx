@@ -11,11 +11,11 @@ const Home = () => {
       <SectionContent data-aos="fade-up">
         <Title>Bienvenidos a Quantum Motores</Title>
         <SectionDescription>
-          Somos una empresa dedicada a la mantención, reparación y bobinados de
-          motores en cualquier línea de producción, ayudando a optimizar
-          procesos productivos y logísticos dentro de su compañía. Con muchos
-          años de experiencia en el mercado, suministrando una amplia gama de
-          servicios. <br />
+          Tenemos una empresa dedicada a la mantención, reparación y bobinados
+          de motores en cualquier línea de producción, ayudando a optimizar
+          procesos productivos y logísticos dentro de su compañía. Tenemos
+          muchos años de experiencia en el mercado, suministrando una amplia
+          gama de servicios. <br />
           Contamos con personal altamente capacitado y disponible para cualquier
           solicitud que requieran, creemos que nuestras habilidades y
           experiencia pueden ser de gran beneficio para usted.
@@ -25,9 +25,9 @@ const Home = () => {
         <Title>Amplia gama de servicios</Title>
         <SectionDescription>
           En <b>Quantum Motores</b> estamos comprometidos en proporcionar
-          soluciones excepcionales a nuestros clientes, y nos gustaría ofrecerle
-          nuestros servicios para cubrir sus necesidades de manera confiable y
-          efectiva. <br />
+          soluciones a nuestros clientes, y nos gustaría ofrecerle nuestros
+          servicios para cubrir sus necesidades de manera confiable y efectiva.{" "}
+          <br />
           Nuestra oferta de servicios incluye:
         </SectionDescription>
       </SectionContent>

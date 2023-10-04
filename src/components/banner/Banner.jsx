@@ -33,18 +33,23 @@ const BannerContainer = styled.div`
   color: #fff;
   padding: 2rem;
   text-align: center;
+
+  @media (min-width: 576px) {
+    padding: 4rem;
+  }
+  @media (min-width: 992px) {
+    padding: 3rem 0;
+  }
 `;
 
 const Container = styled.div`
-  padding: 0 2rem;
-
   @media (min-width: 992px) {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
     text-align: start;
-    padding: 1rem 4rem;
+    padding: 0 4rem;
     max-width: 1400px;
     margin: 0 auto;
   }

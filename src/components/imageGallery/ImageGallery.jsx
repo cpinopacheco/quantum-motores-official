@@ -39,11 +39,12 @@ const GalleryContainer = styled.div`
   :nth-child(1) {
     background-image: url(${image1});
     left: 50%;
+    top: 20px;
   }
 
   :nth-child(2) {
     background-image: url(${image2});
-    top: 90px;
+    top: 115px;
     right: 45%;
   }
 
@@ -77,12 +78,12 @@ const GalleryContainer = styled.div`
     height: 220px;
 
     :nth-child(1) {
-      left: 0px;
-      top: 0px;
+      left: 35px;
+      top: -10px;
     }
     :nth-child(2) {
       top: 110px;
-      left: 110px;
+      left: 140px;
     }
     :nth-child(3) {
       top: -60px;
@@ -90,11 +91,11 @@ const GalleryContainer = styled.div`
     }
     :nth-child(4) {
       top: 110px;
-      left: 390px;
+      left: 360px;
     }
     :nth-child(5) {
-      top: 0px;
-      left: 520px;
+      top: -10px;
+      left: 485px;
     }
   }
 `;

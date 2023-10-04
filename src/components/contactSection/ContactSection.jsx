@@ -86,6 +86,7 @@ const Container = styled.div`
   }
 
   .contact-link {
+    cursor: pointer;
     display: block;
     width: fit-content;
     margin: 0 auto;
@@ -97,9 +98,9 @@ const Container = styled.div`
     color: var(--primary-color);
     font-weight: 600;
     font-size: 1rem;
-    padding: 0.6em 1.5em;
+    padding: 0.4em 1.5em;
     text-decoration: none;
-    cursor: pointer;
+    text-transform: uppercase;
 
     @media (min-width: 992px) {
       &:hover {

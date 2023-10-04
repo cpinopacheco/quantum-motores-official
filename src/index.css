@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;400;600;800&display=swap");
 
 :root {
-  --primary-color: #01086d;
-  /* --secondary-color: #43ba0b; */
-  --secondary-color: #ff6b01;
-  --tertiary-color: rgb(193, 196, 233, 0.45);
+  --primary-color: #010654;
+  --secondary-color: #f3bd41;
+  --tertiary-color: #dadaf2;
 }
 
 *,

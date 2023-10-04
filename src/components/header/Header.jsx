@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { NavLink } from "react-router-dom";
 import { styled } from "styled-components";
-import logo from "../header/assets/white-logo.svg";
+import logo from "../header/assets/logo-horizontal.svg";
 
 const Header = () => {
   const [onScroll, setOnScroll] = useState(false);
@@ -52,7 +52,7 @@ const ItemsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1300px;
 `;
 
 const Logo = styled.img`

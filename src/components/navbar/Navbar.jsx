@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>
       <NavContainer>
-        {width < 992 ? (
+        {width < 1200 ? (
           <>
             <MobileMenu className={`${clicked ? " active" : ""}`}>
               <div className="linksContainer">
@@ -73,20 +73,19 @@ const Navbar = () => {
 export default Navbar;
 
 const NavContainer = styled.nav`
-  /* Enlaces */
   .links {
     display: flex;
+    font-size: 0.9rem;
   }
 
   .linkContainer {
-    border-left: 3px solid var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
   }
 
   .linkContainer:first-child {
     border-left: none;
   }
 
-  /* Enlace */
   .link {
     color: white;
     text-decoration: none;
@@ -94,9 +93,10 @@ const NavContainer = styled.nav`
     margin: 0 1.5rem;
     transition: 0.4s;
     position: relative;
+    letter-spacing: 1px;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     .link:hover {
       color: var(--secondary-color);
     }
@@ -120,7 +120,7 @@ const NavContainer = styled.nav`
   }
 
   .burger {
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       display: none;
     }
   }
@@ -129,7 +129,7 @@ const NavContainer = styled.nav`
 const MobileMenu = styled.aside`
   position: absolute;
   background-color: var(--primary-color);
-  top: 100px;
+  top: 95px;
   left: -1000px;
   width: 100%;
   height: 100vh;

@@ -8,16 +8,17 @@ const MainButton = ({ onClick, content }) => {
 export default MainButton;
 
 const Button = styled.button`
+  cursor: pointer;
   border: none;
   background-color: var(--secondary-color);
   font-weight: 600;
   color: var(--primary-color);
-  border-radius: 20px;
+  border-radius: 50px;
   background-size: 100% auto;
   font-family: inherit;
-  font-size: 1.2rem;
-  padding: 0.6em 1.5em;
-  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.4em 1.5em;
+  text-transform: uppercase;
 
   &:hover {
     background-position: right center;
