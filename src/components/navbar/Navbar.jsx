@@ -130,7 +130,7 @@ const MobileMenu = styled.aside`
   position: absolute;
   background-color: var(--primary-color);
   top: 95px;
-  left: -1000px;
+  left: -1200px;
   width: 100%;
   height: 100vh;
   width: 100%;

@@ -21,15 +21,14 @@ export default WspButton;
 
 const WspBtn = styled.div`
   position: fixed;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   bottom: 30px;
   right: 20px;
   background-color: #25d366;
   border-radius: 50px;
-  font-size: 48px;
+  font-size: 36px;
   border: #25d366;
-  box-shadow: 0 3px 5px var(--tertiary-color);
   display: flex;
   justify-content: center;
   align-items: center;

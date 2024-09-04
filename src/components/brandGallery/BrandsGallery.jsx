@@ -21,6 +21,7 @@ const Container = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-bottom: 7rem;
 `;
 
 const Image = styled.div`

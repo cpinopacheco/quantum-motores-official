@@ -3,6 +3,7 @@ import Banner from "../components/banner/Banner";
 import Title from "../components/title/Title";
 import ServicesBanner from "../components/servicesBanner/ServicesBanner";
 import BrandsGallery from "../components/brandGallery/BrandsGallery";
+import ImageGalleryPopup from "../components/imageGalleryPopup/ImageGalleryPopup";
 
 const Home = () => {
   return (
@@ -38,6 +39,10 @@ const Home = () => {
         <Title>Marcas</Title>
         <BrandsGallery></BrandsGallery>
       </BrandContainer>
+
+      <SectionContent data-aos="fade-up">
+        <ImageGalleryPopup></ImageGalleryPopup>
+      </SectionContent>
     </>
   );
 };
@@ -45,8 +50,8 @@ const Home = () => {
 export default Home;
 
 const SectionContent = styled.section`
-  width: 80%;
-  max-width: 900px;
+  width: 90%;
+  max-width: 1000px;
   margin: 4rem auto;
 
   @media (min-width: 992px) {
